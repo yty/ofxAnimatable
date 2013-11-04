@@ -167,7 +167,7 @@ void ofxAnimatable::setup(){
 
 void ofxAnimatable::drawCurve(int x, int y, int size, bool bg){
 
-#if (OF_AVAILABLE)
+#if defined(OF_AVAILABLE)
 	int xx = x;
 	int yy = y;
 	float s = size;

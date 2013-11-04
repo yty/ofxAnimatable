@@ -8,7 +8,7 @@
 
 
 #define DEFAULT_ANIMATION_DURATION	1.0f
-
+#define   _USE_MATH_DEFINES 
 
 #include <iostream>
 #include <Math.h>
@@ -18,7 +18,7 @@ using namespace std;
 
 #define OF_AVAILABLE true
 
-#if (OF_AVAILABLE)
+#if defined(OF_AVAILABLE)
 #include "ofMain.h"
 #endif
 
